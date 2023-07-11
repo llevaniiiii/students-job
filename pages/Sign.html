@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sign in</title>
+
+        <link rel="stylesheet" href="../css/reset.css">
+        <link rel="stylesheet" href="../css/sing.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Updock&display=swap" rel="stylesheet"> 
+        
+        <link rel="icon" type="image/png" href="../img/logo.png" sizes="8x8"/>
+    </head>
+    <body>
+        <!--header-->
+        <header>
+            <div class="header-container">
+                <div class="header-wrapper">
+                    <div class="title">
+                        <a href="../index.html"><img class="logo" src="../img/logo.png" alt="logo"></a>
+                        <h1>GSJO</h1>
+                    </div>
+                    <nav class="nav">
+                        <ul class="nav-ul">
+                            <li class="li"><a href="../index.html">Home</a></li>
+                            <li class="li"><a href="">Favorites</a></li>
+                            <li class="li"><a href="">CV registration</a></li>
+                            <li class="li"><a href="Sign.html">Sign in</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <!--header end-->
+        <!--section 1-->
+        <section>
+            <div class="auth">
+                <form class="sign-in-form" method="POST">
+                    <div class="sign-in-info">
+                        <input class="sign-in-input" type="text" name="username" id="username" placeholder="Name" > 
+                    </div>
+                    <div class="sign-in-info">
+                        <input class="sign-in-input" type="password" name="password" id="password" placeholder="Password">
+                    </div>
+                    <div>
+                        <input class="sign-in-submit" type="submit" value="sign in">
+                    </div>
+                </form>
+            </div>
+            <div class="contact-container">
+                <h4>Registration</h4>
+                <h2>Create now</h2>
+                <div class="container">
+                    <form class="form" action="" method="post">
+                        <input type="text" placeholder="Name" name="name-surname" id="name-surname" required>
+                            <input type="text" placeholder="Firstname / Lastname" name="name-surname" id="name-surname" required>
+                            <input type="email" placeholder="Email" name="email" id="email" required>
+                            <input type="password" placeholder="Password" name="password" id="password" required>
+                            <input type="password" placeholder="Repeat password" name="password" id="password" required>
+                            <input type="number" placeholder="Number" name="number" id="number" required>
+                            <input class="button" type="submit" value="Send">
+                    </form>
+                </div>
+            </div>
+        </section>
+        <!--section 1 end-->
+        <!--section 2-->
+        <section>
+            <div class="us-contacts">
+                <div class="card-c">
+                    <div class="img-c">
+                        <img src="../img/mail-c.svg" alt="email">
+                    </div>
+                    <h3>Email</h3>
+                    <a href="https://mail.google.com/mail/u/0/#inbox"><p>GSJO@gmail.com</p></a>
+                </div>
+                <div class="card-c">
+                    <div class="img-c">
+                        <img src="../img/phone-c.svg" alt="phone">
+                    </div>
+                    <h3>Phone</h3>
+                    <p>+889 590 30 10 90</p>
+                </div>
+                <div class="card-c">
+                    <div class="img-c">
+                        <img src="../img/map-pin-c.svg" alt="location">
+                    </div>
+                    <h3>Location</h3>
+                    <a href="https://www.google.com/maps/@41.7098714,44.7669575,18.43z"><p>Georgia, Tbilisi</p></a>
+                </div>
+            </div>
+        </section>
+        <!--section 2 end-->
+
+        <!--footer-->
+        <footer class="footer-section">
+			<div class="footer">
+				<div class="footer-text-div">
+					<img class="footer-logo" src="../img/logo.png" alt="logo">
+					<div class="div-footer-1">
+						<ul>
+							<li>
+								<h3 class="div-text">Home</h3>
+							</li>
+							<li>
+								<h3 class="div-text">About</h3>
+							</li>
+							<li>
+								<h3 class="div-text">Contact</h3>
+							</li>
+						</ul>
+					</div>
+					<div class="div-footer-1">
+						<ul>
+							<li>
+								<h3 class="div-text">Help</h3>
+							</li>
+							<li>
+								<h3 class="div-text">How to use</h3>
+							</li>
+							<li>
+								<h3 class="div-text">Categories</h3>
+							</li>
+						</ul>
+					</div>
+					<div class="div-footer-1">
+						<ul>
+							<li>
+								<h3 class="div-text">Monitoring</h3>
+							</li>
+							<li>
+								<h3 class="div-text">Partners</h3>
+							</li>
+							<li>
+								<h3 class="div-text">News</h3>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="footer-icon">
+					<a href="https://www.instagram.com/?hl=en"><img class="icon" src="../img/instagram.svg" alt="instagram"></a>
+					<a href="https://twitter.com/?lang=en"><img class="icon" src="../img/Path2.svg" alt="path"></a>
+					<a href="https://www.facebook.com/"><img class="icon" src="../img/facebook.svg" alt="fb"></a>
+					<a href="https://www.google.com/"><img class="icon" src="../img/web.svg" alt="web"></a>
+				</div>
+			</div>
+            <div>
+                <p class="footer-p-2">Copyright © 2022 Daily Company. All rights reserved.</p>
+            </div>
+		</footer>
+        <!--footer end-->
+    </body>
+</html>

@@ -1,0 +1,123 @@
+body {
+    margin: 0 auto;
+}
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 60px;
+    background-color: rgb(232, 232, 232);
+    border-radius: 15px;
+}
+.logo {
+    width: 40px;
+}
+.nav-ul {
+    display: flex;
+    justify-content: space-between;
+}
+li > a{
+    font-size: 17px;
+    color: rgb(32, 103, 143);
+    margin-right: 30px;
+}
+.title {
+    color: rgb(32, 103, 143);
+    font-weight: 600;
+    margin: 5px 50px;
+    font-family: 'Kaushan Script', cursive;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.title > h1 {
+    font-size: 25px;
+    margin-left: 7px;
+}
+section {
+    margin: 50px 0;
+}
+
+/* section 1*/
+.form {
+    background-image: url(../img/work_back.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    width: 200px;
+    background-color: rgb(32, 103, 143);
+    border-radius: 15px;
+    color: azure;
+    font-weight: 400;
+}
+.info >label {
+    margin: 10px auto;
+}
+.info >input {
+    width: 200px;
+    height: 30px;
+    padding: 0 10px;
+    border-radius: 15px;
+}
+/* section 1*/
+
+/* footer */
+.footer-section {
+    background-color: #A6ADB4;
+}
+.footer {
+    width: 1160px;
+    padding: 50px 0;
+    margin: 0 auto;
+}
+.footer-text-div {
+    width: 486px;
+    height: 84px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.footer-logo {
+    width: 40px;
+    height: 40px;
+    margin-right: 50px;
+}
+.div-footer-1 {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 13px;
+    width: 62px;
+    height: 84px;
+    color: rgb(32, 103, 143);
+    margin-right: 60px;
+}
+.div-text {
+   margin-bottom: 8px;
+}
+.footer-icon {
+   vertical-align: middle;
+   display: inline-block;
+   width: 160px;
+   height: 16px;
+   margin-left: 500px;
+}
+.icon {
+   margin-right: 21px;
+   vertical-align: middle;
+   display: inline-block;
+}
+.footer-p-2 {
+    font-size: 11px;
+    color: rgb(32, 103, 143);
+    vertical-align: middle;
+    display: inline-block;
+    margin-left: 50px;
+    margin-bottom: 15px;
+}
